@@ -1,3 +1,6 @@
+# Deploy
+https://visionary-duckanoo-973e6f.netlify.app
+
 # Guia de estilos
 
 Toda a estilização que será usada no projeto dentro do figma.
