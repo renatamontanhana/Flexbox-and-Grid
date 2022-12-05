@@ -18,6 +18,7 @@
     <header class="cabecalho">
       <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
       <img src="img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo" />
+      <p class="cabecalho__perfil">Bruno Lopez</p>
       <button class="cabecalho__notificacao" aria-label="Notificação">
         <i></i>
       </button>
@@ -48,12 +49,17 @@
       >
     </nav>
     <main class="principal">
-      <h2 class="titulo__pagina">Início</h2>
-      <article class="cartao cartao--destaque">
+      <h2 class="titulo-pagina">Início</h2>
+      <article class="cartao cartao--destaque destaque-video">
         <img
           src="img/banner-mobile_1.png"
-          alt="banner do cartao"
-          class="cartao_imagem"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--mobile"
+        />
+        <img
+          src="img/banner_1.png"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--desktop"
         />
         <div class="cartao__conteudo">
           <p class="cartao__destaque">Vídeo em destaque</p>
@@ -70,10 +76,61 @@
           </button>
         </div>
       </article>
-      <section class="secao">
+      <article class="cartao cartao--recentes videos-recentes">
+        <h3 class="cartao__titulo">Vídeos recentes</h3>
+        <a href="#" class="cartao__link">Ver todos</a>
+        <ul class="cartao__lista">
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+        </ul>
+      </article>
+      <section class="secao secao-videos">
         <h3 class="titulo-secao">Vídeos mais vistos</h3>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
@@ -85,7 +142,7 @@
           </div>
         </article>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
@@ -97,7 +154,7 @@
           </div>
         </article>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
@@ -109,7 +166,7 @@
           </div>
         </article>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
@@ -121,11 +178,67 @@
           </div>
         </article>
       </section>
-      <article class="cartao cartao--destaque">
+      <article class="cartao cartao--recentes produtos-recentes">
+        <h3 class="cartao__titulo">Vídeos recentes</h3>
+        <a href="#" class="cartao__link">Ver todos</a>
+        <ul class="cartao__lista">
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+            <p class="cartao__item-perfil">Bruno Lopez</p>
+          </li>
+        </ul>
+      </article>
+      <article class="cartao cartao--destaque destaque-produtos">
         <img
-          src="img/banner-mobile_1.png"
-          alt="banner do cartao"
-          class="cartao_imagem"
+          src="img/banner-mobile_2.png"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--mobile"
+        />
+        <img
+          src="img/banner_2.png"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--desktop"
         />
         <div class="cartao__conteudo">
           <p class="cartao__destaque">Vídeo em destaque</p>
@@ -142,10 +255,10 @@
           </button>
         </div>
       </article>
-      <section class="secao">
+      <section class="secao secao-produtos">
         <h3 class="titulo-secao">Vídeos mais vistos</h3>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
@@ -157,7 +270,7 @@
           </div>
         </article>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
@@ -169,7 +282,7 @@
           </div>
         </article>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
@@ -181,7 +294,7 @@
           </div>
         </article>
         <article class="cartao">
-          <img src="img/video_1.png" alt="video_1" class="cartao_imagem" />
+          <img src="img/video_1.png" alt="Vídeo" class="cartao__imagem" />
           <div class="cartao__conteudo">
             <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
